@@ -10,15 +10,15 @@ const coche = {
 
 console.log("Objeto original:", coche);
 
-// Object.keys() - obtener claves
+//obtener claves
 const claves = Object.keys(coche);
 console.log("Claves del objeto:", claves);
 
-//  Object.values() - obtener valores
+//obtener valores
 const valores = Object.values(coche);
 console.log("Valores del objeto:", valores);
 
-// Object.entries() - obtener pares clave-valor
+// Obtener pares clave-valor
 const entradas = Object.entries(coche);
 console.log("Pares clave-valor:", entradas);
 
